@@ -1,4 +1,3 @@
-```markdown
 # Responsive Navbar with React
 
 This project demonstrates how to create a responsive navbar using React. The navbar includes a toggle button for mobile view, dynamic height adjustment for the links container, and social media icons. The project utilizes React hooks such as `useState` and `useRef` to manage state and interact with the DOM.
@@ -37,7 +36,6 @@ This project demonstrates how to create a responsive navbar using React. The nav
 const [showLinks, setShowLinks] = useState(false);
 const linksContainerRef = useRef(null);
 const linksRef = useRef(null);
-```
 
 - `showLinks`: A state variable to control the visibility of the links container.
 - `linksContainerRef`: A reference to the `links-container` div.
